@@ -1,5 +1,5 @@
 # BigDataCourse
-教育大數據課程
+教育大數據課程 如果要使用Discord機器人請將token請直接放在 client.run("") 中
 
 # Discord 公車模擬器 Bot 說明
 
