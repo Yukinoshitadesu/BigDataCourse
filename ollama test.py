@@ -75,7 +75,7 @@ async def on_message(message):
 
         try:
             # 讀取檔案中的 prompt
-            prompt = read_prompt_from_file("C:\\Users\\USER\\Desktop\\程式語言 資料夾\\pydiscord\\ollama test1107\\桐谷和人檔案.txt") #可自行更改
+            prompt = read_prompt_from_file("\桐谷和人檔案.txt") #可自行更改
             user_input = message.content[len("%chat"):].strip()
             full_prompt = f"{prompt}\n使用者說：{user_input}"
             
